@@ -1,0 +1,56 @@
+.mobile {
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.desktop {
+  display: none;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  &__wrap {
+    background-image: linear-gradient(to right, rgba(34, 38, 47, 0) 1%, #22262f 100%),
+  url("../img/bg-cards.png");
+    background-position: center, center bottom;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+
+    @media (min-width: 768px) {
+      min-height: calc(100vh - 76px);
+    }
+  }
+
+  //&__container {
+  //  width: 1200px;
+  //  margin-left: auto;
+  //  margin-right: auto;
+  //}
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: -210px;
+
+    @media (min-width: 1200px) {
+      right: -110px;
+    }
+
+    @media (min-width: 1440px) {
+      right: 0;
+    }
+  }
+}
+
+.show {
+  display: flex !important;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  background-color: #1c1f27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  margin-top: -10px;
+
+@media (min-width: 768px) {
+    margin-top: 0;
+  }
+
+  & svg {
+    //margin-top: -15px;
+    //
+    //@media (min-width: 768px) {
+    //  margin-top: 0;
+    //}
+  }
+
+}

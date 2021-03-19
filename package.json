@@ -1,0 +1,55 @@
+{
+  "scripts": {
+    "start": "cross-env NODE_ENV=prod gulp build"
+  },
+  "name": "PKC",
+  "version": "1.0.0",
+  "description": "PKC landing",
+  "author": "vit",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "*",
+    "del": "*",
+    "gulp-file-include": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-svgfallback": "*",
+    "gulp-uglify": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "browser-sync": "*",
+    "cross-env": "*",
+    "css-mqpacker": "*",
+    "gulp": "*",
+    "gulp-cheerio": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-debug": "*",
+    "gulp-file-include": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "*",
+    "gulp-less-to-scss": "*",
+    "gulp-newer": "*",
+    "gulp-notify": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rigger": "*",
+    "gulp-sass": "*",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-stylelint": "*",
+    "gulp-svgfallback": "*",
+    "gulp-svgmin": "*",
+    "gulp-svgstore": "*",
+    "gulp-uglify": "*",
+    "imagemin-pngquant": "*"
+  },
+  "config": {
+    "directories": {
+      "source": "./src",
+      "build": "./build"
+    }
+  }
+}

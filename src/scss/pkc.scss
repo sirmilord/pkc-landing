@@ -1,0 +1,55 @@
+.pkc {
+  background-image: linear-gradient(137deg, rgba(34, 38, 47, 0), #33373f 49%);
+  padding-top: 74px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  @media (min-width:768px) {
+    background-image: none;
+    padding-top: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+    @media (min-width:768px) {
+      margin-bottom: 20px;
+      margin-top: 40px;
+    }
+
+  }
+
+  &__cert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+
+    & img:first-of-type {
+      margin-right: 20px;
+    }
+
+    & img:last-of-type {
+      margin-left: 20px;
+    }
+  }
+
+  &__img {
+    overflow: hidden;
+    margin-right: -24px;
+  }
+  &__img-item {
+    display: none;
+  }
+
+}
